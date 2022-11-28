@@ -1,0 +1,113 @@
+html {
+    background: #212b2d;
+}
+
+body {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+
+}
+
+header {
+    color: white;
+    background-color: #37565b;
+
+    padding: 50px 150px;
+    margin: 10px 0px;
+
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #333d3f;
+
+
+}
+
+nav ul {}
+
+nav a:not(:first-child) {
+    border-left: 1px solid white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    width: 16.6%;
+    text-align: center;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.sidebar h2,
+p {
+    margin: 35px;
+}
+
+.mainbar {
+    width: 75%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexed {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.half {
+    width: 50%;
+}
+
+.brdr-left {
+    box-shadow: -5px 0px 0px -1px rgb(255 255 255 / 75%);
+}
+
+.mainbar h2 {
+    margin-left: 35px;
+}
+
+.mainbar hr {
+    margin-left: 35px;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-form textarea {
+    width: 100%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+
+    display: block;
+    width: 50%;
+    height: 50px;
+
+}
+
+.contact-form .radio {
+    width: 100%;
+    display: flex;
+
+}
+
+.contact-form .radio label {
+    width: 50%;
+}
