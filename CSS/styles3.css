@@ -37,9 +37,6 @@ nav {
     padding: 15px 0px 15px 0px;
 
 }
-
-nav ul {}
-
 nav a:not(:first-child) {
     border-left: 1px solid var(--clr1);
 }
