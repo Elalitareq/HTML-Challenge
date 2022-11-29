@@ -1,5 +1,10 @@
+:root{
+    --clr1: #212b2d;
+    --clr2: #37565b;
+    --clr3: #333d3f;
+}
 html {
-    background: #212b2d;
+    background: var(--clr1);
 }
 
 body {
@@ -13,7 +18,7 @@ body {
 
 header {
     color: white;
-    background-color: #37565b;
+    background-color: var(--clr2);
 
     padding: 50px 150px;
     margin: 10px 0px;
@@ -39,8 +44,11 @@ nav a:not(:first-child) {
 nav a {
     color: white;
     text-decoration: none;
-    width: 16.6%
+    width: 16.6%;
     text-align: center;
+}
+nav a:hover{
+    color: var(--clr2);
 }
 
 .sidebar {
@@ -90,21 +98,31 @@ main {
 
 .contact-form textarea {
     width: 100%;
+    border-radius: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .contact-form input[type="text"],
 .contact-form input[type="email"] {
-
+    margin-top: 20px;
     display: block;
     width: 50%;
     height: 50px;
+    border-radius: 1rem;
 
 }
 
 .contact-form .radio {
     width: 100%;
     display: flex;
+    margin-bottom: 20px;
 
+}
+
+.button {
+    padding: 15px;
+    
 }
 
 .contact-form .radio label {
