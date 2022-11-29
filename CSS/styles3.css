@@ -24,7 +24,6 @@ nav {
     height: 50px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     background-color: #333d3f;
 
@@ -34,13 +33,13 @@ nav {
 nav ul {}
 
 nav a:not(:first-child) {
-    border-left: 1px solid white;
+    border-left: 1px solid grey;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    width: 16.6%;
+    width: 16.6%
     text-align: center;
 }
 
