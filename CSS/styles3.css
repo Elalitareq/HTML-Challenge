@@ -1,6 +1,6 @@
 :root{
-    --clr1: #212b2d;
-    --clr2: #37565b;
+    --clr1: #c58852;
+    --clr2: darkslategray;
     --clr3: #333d3f;
 }
 html {
@@ -11,17 +11,19 @@ body {
     width: 100%;
     max-width: 1300px;
     margin: auto;
-    color: white;
+    color: var(--clr2);
     font-size: 20px;
 
 }
 
 header {
-    color: white;
-    background-color: var(--clr2);
-
+    background-image: url("/images/Potatoes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--clr2);
     padding: 50px 150px;
     margin: 10px 0px;
+    border-radius: 0.5rem;
 
 }
 
@@ -31,6 +33,7 @@ nav {
     display: flex;
     align-items: center;
     background-color: #333d3f;
+    border-radius: 0.5rem
 
 
 }
@@ -38,11 +41,11 @@ nav {
 nav ul {}
 
 nav a:not(:first-child) {
-    border-left: 1px solid grey;
+    border-left: 1px solid var(--clr1);
 }
 
 nav a {
-    color: white;
+    color: var(--clr1);
     text-decoration: none;
     width: 16.6%;
     text-align: center;
@@ -73,13 +76,16 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-
+.blabla{
+    text-align: justify;
+}
 .half {
     width: 50%;
+    text-align: justify;
 }
 
 .brdr-left {
-    box-shadow: -5px 0px 0px -1px rgb(255 255 255 / 75%);
+    box-shadow: -5px 0px 0px -1px var(--clr3);
 }
 
 .mainbar h2 {
@@ -101,6 +107,8 @@ main {
     border-radius: 1rem;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: var(--clr2);
+    color: var(--clr1);
 }
 
 .contact-form input[type="text"],
@@ -110,7 +118,8 @@ main {
     width: 50%;
     height: 50px;
     border-radius: 1rem;
-
+    background-color: var(--clr2);
+    color: var(--clr1);
 }
 
 .contact-form .radio {
@@ -118,11 +127,13 @@ main {
     display: flex;
     margin-bottom: 20px;
 
+
 }
 
 .button {
     padding: 15px;
-    
+    background-color: var(--clr2);
+    color: var(--clr1);
 }
 
 .contact-form .radio label {
